@@ -1,7 +1,7 @@
 name: Publish REST ML Service to GHCR
 on:
   pull_request:
-  types: [closed]
+    types: [closed]
 jobs:
   publish-to-ghcr:
     runs-on: ubuntu-latest
